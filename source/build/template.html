@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>裂教与正统 · 基督教思想分裂通史（含外部批判）</title>
+<meta name="description" content="自公元1世纪至21世纪，基督教内部派别分裂的完整谱系：主张、历史背景、哲学背景、论战对象、所受反驳，以及犹太教、伊斯兰教与无神论的外部批判。面向零基础读者的深度导览。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%238a2f1d'/%3E%3Cpath d='M29 12h6v14h14v6H35v20h-6V32H15v-6h14z' fill='%23f7f3eb'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#f7f3eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div id="progressbar"></div>
+<div id="sidebar-scrim"></div>
+
+<aside id="sidebar" aria-label="目录与检索">
+  <div class="sb-head">
+    <div class="sb-title">裂教与正统</div>
+    <div class="sb-sub">基督教思想分裂通史</div>
+  </div>
+  <div class="sb-tools">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" class="ico"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input id="search" type="search" placeholder="全文检索…  (按 / 聚焦)" autocomplete="off" spellcheck="false">
+      <kbd class="kbd-esc" id="search-clear" title="清除">esc</kbd>
+    </div>
+    <div id="search-results" hidden></div>
+    <div class="sb-actions">
+      <button data-act="theme" title="切换日间 / 夜间">◐ 主题</button>
+      <button data-act="level" title="切换阅读层级：总览 / 标准 / 深潜">▣ 层级：<b id="level-label">深潜</b></button>
+      <button data-act="font" title="切换字号">Aa 字号</button>
+    </div>
+  </div>
+  <nav id="toc"></nav>
+  <div class="sb-foot">
+    <div id="reading-stats"></div>
+  </div>
+</aside>
+
+<header id="topbar">
+  <button id="menu-btn" aria-label="目录">☰</button>
+  <div class="tb-title">裂教与正统</div>
+  <div class="tb-tools">
+    <button data-act="theme" title="切换日间 / 夜间">◐</button>
+    <button data-act="glossary" title="术语库">术语</button>
+    <button data-act="timeline" title="全书大事年表">年表</button>
+    <button id="print-btn" title="打印 / 导出 PDF">打印</button>
+  </div>
+  <div class="tb-progress"><span></span></div>
+</header>
+
+<main id="doc">
+  <article id="content">
+    <div class="loading">排版中…</div>
+  </article>
+  <footer class="docfoot">
+    <p>《裂教与正统：基督教思想分裂通史》</p>
+    <p class="dim">本文为独立编写的思想史导览，非任何教会官方文献。引文译文若注明译者则依该译本；未注明者为便于理解的意译。</p>
+  </footer>
+</main>
+
+<div id="drawer-backdrop" hidden></div>
+<section id="drawer" hidden aria-label="术语详情">
+  <div class="dw-head"><h3 id="dw-title"></h3><button id="dw-close" aria-label="关闭">×</button></div>
+  <div id="dw-body"></div>
+</section>
+
+<div id="popover" hidden></div>
+<div id="toast" hidden></div>
+<button id="totop" title="回到顶部">↑</button>
+
+<script type="text/markdown" id="src"><!--__BODY__--></script>
+
+<script>
+window.__GLOSSARY__ = /*__GLOSSARY__*/;
+window.__TIMELINE__ = /*__TIMELINE__*/;
+</script>
+<script>/*__JS__*/</script>
+</body>
+</html>
