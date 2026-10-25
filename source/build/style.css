@@ -335,3 +335,7 @@ mark{background:var(--mark);color:inherit;padding:0 .05em;border-radius:2px}
 .dtl .tl-year{display:inline-block;min-width:5.2em}
 .tl-tag{display:inline-block;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.1em;color:var(--ink3);border:1px solid var(--rule);border-radius:3px;padding:0 4px;margin:0 .5em 0 .2em;vertical-align:1px}
 .dtl .tl-txt{display:inline;font-size:.93em;color:var(--ink2)}
+
+/* AIGC 页脚 */
+.docfoot .aigc-foot{font-size:12.5px;opacity:.82;margin-top:.4em;line-height:1.75}
+.docfoot .aigc-foot a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
